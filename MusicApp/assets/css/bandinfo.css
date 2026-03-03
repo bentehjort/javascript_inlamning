@@ -1,0 +1,35 @@
+body{
+    background-color: white;
+}
+h1{
+    text-align: center;
+    margin: 10px;
+}
+.BandInfo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.BandDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: flex-start;
+    padding: 10px;
+    margin: 0;
+}
+.BandDetails ul{
+    list-style-type: none;
+    padding: 0;
+}
+.BandInfo img{
+    max-width: 100%;
+    width: 700px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}

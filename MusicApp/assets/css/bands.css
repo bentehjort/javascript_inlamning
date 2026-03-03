@@ -1,0 +1,41 @@
+body{
+    background-color: white;
+}
+h1{
+    text-align: center;
+    margin: 10px;
+}
+.BandName{
+    font-weight: bold;
+}
+.BandItem p{
+    padding: auto;
+    font-size: small;
+
+}
+.BandCollection{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.BandItem{
+    background-color: var(--card-color);
+    width: 200px;
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.BandItem:hover{
+    background-color: var(--hover-color);
+}
+.BandCollection img{
+    max-width: 100%;
+    border-radius: 15px;
+}

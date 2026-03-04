@@ -1,6 +1,7 @@
 :root{
-    --frame-color: #E2852E;
-    --hover-color: #ABE0F0;
-    --card-color: #F5C857;
-    --background-color: #FFEE91;
+    --frame-color: #A8DF8E;
+    --button-color: #FFAAB8;
+    --card-color: #FFD8DF;
+    --background-color: #F0FFDF;
+    --hover-color: #fe6d85;
 }

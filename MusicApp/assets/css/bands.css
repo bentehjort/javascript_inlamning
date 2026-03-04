@@ -13,6 +13,18 @@ h1{
     font-size: small;
 
 }
+.details-button{
+    margin-top: auto;
+    padding:  10px;
+    background-color: var(--button-color);
+    color: var(--background-color);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.details-button:hover{
+    background-color: var(--hover-color);
+}
 .BandCollection{
     height: 100%;
     width: 100%;
@@ -26,16 +38,24 @@ h1{
     width: 200px;
     text-decoration: none;
     color: inherit;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     margin: 10px;
+    margin-bottom: 20px;
     padding: 10px;
     border-radius: 15px;
 }
-.BandItem:hover{
-    background-color: var(--hover-color);
-}
+
 .BandCollection img{
     max-width: 100%;
     border-radius: 15px;
+}
+.searchField{
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px;
+}
+.searchButton{
+    padding: 5px; 
 }

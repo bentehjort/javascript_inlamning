@@ -1,0 +1,80 @@
+* {box-sizing: border-box;}
+body{
+    margin:0;
+    padding: 0;
+}
+fieldset{
+    border-radius: 8px;
+    border: 1px solid var(--frame-color);
+}
+.FormContainer{
+    padding: 10px;
+    background-color: var(--background-color);
+}
+fieldset + fieldset{
+    margin-top:40px;
+}
+@media (min-width: 800px) {
+  .FormContainer {
+    max-width: 750px;
+    margin: 0 auto;;
+  }
+}
+.FormIntro{
+    padding-bottom:10px;
+}
+.FormIntro h1{
+    margin-bottom:0px;
+}
+.FormIntro h2{
+    margin-top: 0px;
+    font-weight: 400;
+    line-height: 1.3;
+}
+.formInputContainer{
+    display: flex;
+    flex-direction: column;
+}
+.formInputContainer label{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+@media (min-width: 800px) {
+  .formInputContainer {
+    flex-direction: row;
+    align-items: center;
+  }
+  .formInputContainer input:not([type="range"]):not([type="color"]) {
+    flex: 0 0 50%;
+  }
+  .formInputContainer label {
+    flex: 1 0 50%;
+    margin-bottom: 0;
+  }
+  textarea {
+    flex: 1 0 50%;
+  }
+}
+.formInputContainer + .formInputContainer{
+    margin-top: 20px;
+}
+legend{
+    font-size: 18px;
+    padding: 3px 6px;
+    color: black;
+    background-color: var(--button-color);
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+.submitButton{
+    margin-top: 3px;
+    padding: 10px;
+    background-color: var(--button-color);
+    color: black;
+    border: 1px solid var(--hover-color);
+    border-radius: 8px;
+    cursor: pointer;
+}
+.submitButton:hover{
+    background-color: var(--hover-color);
+}

@@ -20,12 +20,16 @@
 }
 .MenuItem{
     color: black;
+    background-color: var(--card-color);
+    border-radius: 8px;
     display: flex;
     text-decoration: none;
+    padding: 10px;
+    margin: 3px;
 }
 .MenuItem:hover{
     font-size: larger;
-    color: var(--hover-color);
+    background-color: var(--hover-color);
 }
 
   @media (max-width: 600px) {

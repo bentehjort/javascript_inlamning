@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My music page</title>
+
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/layout.css" />
+    <link rel="stylesheet" href="./assets/css/addBandForm.css" />
+</head>
+
+<body>
+    <div class="GridPage">
+        <div class="GridItemMain">
+            <div class="FormContainer">
+                <div class="FormIntro">
+                    <h1>Add a new band</h1>
+                    <p>Use the form below to add a new band to the database.</p>
+                    <b>note: asterisk * indicates a required field</b>
+                </div>
+                <fieldset class="bandForm">
+                    <legend>Band information</legend>
+                    <div class="formInputContainer">
+                        <label for="bandName">Band name*</label>
+                        <input type="text" id="bandName" name="bandName" required>
+                    </div>
+
+                    <div class="formInputContainer">
+                        <label for="genres">Genres</label>
+                        <input type="text" id="genres" name="genres">
+                    </div>
+
+                    <div class="formInputContainer">
+                        <label for="yearsActive">Year of establishment</label>
+                        <input type="text" id="yearsActive" name="yearsActive">
+                    </div>
+                </fieldset>
+
+                <button class="submitButton" type="submit">Submit</button>
+            </div>
+        </div>
+        <div class="GridItemSide">
+            <div class="MenuWrap">
+                <a href="homepage.html" class="MenuItem">Home</a>
+                <a href="bands.html" class="MenuItem">Band Page</a>
+                <a href="addBandForm.html" class="MenuItem">Add new music group</a>
+            </div>
+        </div>
+        <div class="GridItemHeader">
+            <h1>My music page</h1>
+        </div>
+        <div class="GridItemFooter">
+            <p>(c) Bente Hjort 2026</p>
+        </div>
+
+    </div>
+</body>

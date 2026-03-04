@@ -1,0 +1,104 @@
+
+.AllBandDetails{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    width: 100%;
+    margin: 20px;
+}
+.TextAndImageGroup{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+.BandText{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 20px;
+}
+.MembersList{
+    list-style: none;
+    padding: 0;
+}
+.BandMedia{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 40px;
+    justify-content: flex-start;
+}
+.BandMedia img{
+    max-width: 50%;
+    width: 800px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+img{
+    max-width: 100%;
+    width: 100%;
+    border-radius: 8px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+    margin-top: 20px;
+}
+.AlbumTableContainer{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 40px;
+    max-width:60%;
+}
+    
+.albumTableFluid{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 100%;
+    border: 2px solid var(--frame-color);
+    border-radius: 8px;
+    background-color:antiquewhite;
+}
+.trFluid{
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid var(--frame-color);
+}
+.tbodyFluid .trFluid:last-child{
+    border-bottom: none;
+}
+.theadFluid {
+    background-color: var(--card-color);
+    font-weight: bold;
+}
+.tdFluent {
+    flex: 1;
+    padding: 10px;
+    color: black;
+}
+.tbodyFluid .trFluid:nth-child(even){
+    background-color:bisque;
+}
+.Pagination{
+    display: flex;
+    margin-bottom: 10px; 
+    border-radius: 8px;
+}
+.Pagination span{
+    padding: 10px;
+    border: 1px solid var(--frame-color);
+    border-radius: 3px;
+    background-color: antiquewhite;
+    cursor: pointer;
+}

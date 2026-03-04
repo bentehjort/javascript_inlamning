@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My music page</title>
-
-    <link rel="stylesheet" href="./assets/css/styles.css"/>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
     <link rel="stylesheet" href="./assets/css/layout.css" />
     <link rel="stylesheet" href="./assets/css/bandinfo.css" />
 </head>
@@ -14,36 +13,102 @@
 <body>
     <div class="GridPage">
         <div class="GridItemMain">
-            <h1>Amadou & Mariam</h1>
-            <div class="BandInfo">
+            <div class="BandText">
+                <h1>Amadou & Mariam</h1>
+                <p>Genres: Mande Music, Worldbeat, Afro-Funk</p>
+                <p>Years active: 1974-2025</p>
+                <p><strong>Members:</strong></p>
+                <ul class="MembersList">
+                    <li>Amadou Bagayoko</li>
+                    <li>Mariam Doumbia</li>
+                </ul>
+            </div>
+            <div class="BandMedia">
                 <img src="./assets/img/amadoumariam_0.jpg" alt="Amadou & Mariam">
-                <div class="BandDetails">
-                    <p>Genres: Mande Music, Worldbeat, Afro-Funk</p>
-                    <p>Years active: 1974-2025</p>
-                    <p><strong>Members:</strong></p>
-                    <ul class="MembersList">
-                        <li>Amadou Bagayoko</li>
-                        <li>Mariam Doumbia</li>
-                    </ul>
-                    <p><strong>Albums:</strong></p>
-                    <ul class="AlbumList">
-                        <li>1989: Vol. 1</li>
-                        <li>1990: Vol. 2</li>
-                        <li>1991: Vol. 3</li>
-                        <li>1992: Vol. 4</li>
-                        <li>1993: Vol. 5</li>
-                        <li>1998: Sou Ti Nile</li>
-                        <li>2000: Tje Ni Mousso</li>
-                        <li>2002: Wati</li>
-                        <li>2005: Je Pense A Toi</li>
-                        <li>2005: Dimanche à Bamako</li>
-                        <li>2008: Welcome To Mali</li>
-                        <li>2012: Folila</li>
-                        <li>2017: La Confusion</li>
-                        <li>2022: Eclipse</li>
-                        <li>2024: La vie est belle</li>
-                        <li>2025: L'amour à la folie</li>
-                    </ul>
+                <div class="albumTableContainer">
+                    <div class="albumTableFluid">
+                        <div class="theadFluid">
+                            <div class="trFluid">
+                                <div class="tdFluent">Year</div>
+                                <div class="tdFluent">Album Title</div>
+                            </div>
+                        </div>
+
+                        <div class="tbodyFluid">
+                            <div class="trFluid">
+                                <div class="tdFluent">1989</div>
+                                <div class="tdFluent">Vol. 1</div>
+                            </div>
+                            <div class="trFluid">
+                                <div class="tdFluent">1990</div>
+                                <div class="tdFluent">Vol. 2</div>
+                            </div>
+                            <div class="trFluid">
+                                <div class="tdFluent">1991</div>
+                                <div class="tdFluent">Vol. 3</div>
+                            </div>
+                            <div class="trFluid">
+                                <div class="tdFluent">1992</div>
+                                <div class="tdFluent">Vol. 4</div>
+                            </div>
+                            <div class="trFluid">
+                                <div class="tdFluent">1993</div>
+                                <div class="tdFluent">Vol. 5</div>
+                            </div>
+                            <div class="trFluid">
+                                <div class="tdFluent">1998</div>
+                                <div class="tdFluent">Sou Ti Nile</div>
+                            </div>
+                            <div class="trFluid">
+                                <div class="tdFluent">2000</div>
+                                <div class="tdFluent">Tje Ni Mousso</div>
+                            </div>
+                            <div class="trFluid">
+                                <div class="tdFluent">2002</div>
+                                <div class="tdFluent">Wati</div>
+                            </div>
+                            <div class="trFluid">
+                                <div class="tdFluent">2005</div>
+                                <div class="tdFluent">Je Pense A Toi</div>
+                            </div>
+                            <div class="trFluid">
+                                <div class="tdFluent">2005</div>
+                                <div class="tdFluent">Dimanche à Bamako</div>
+                            </div>
+                            <div class="trFluid">
+                                <div class="tdFluent">2008</div>
+                                <div class="tdFluent">Welcome To Mali</div>
+                            </div>
+                            <div class="trFluid">
+                                <div class="tdFluent">2012</div>
+                                <div class="tdFluent">Folila</div>
+                            </div>
+                            <div class="trFluid">
+                                <div class="tdFluent">2017</div>
+                                <div class="tdFluent">La Confusion</div>
+                            </div>
+                            <div class="trFluid">
+                                <div class="tdFluent">2022</div>
+                                <div class="tdFluent">Eclipse</div>
+                            </div>
+                            <div class="trFluid">
+                                <div class="tdFluent">2024</div>
+                                <div class="tdFluent">La vie est belle</div>
+                            </div>
+                            <div class="trFluid">
+                                <div class="tdFluent">2025</div>
+                                <div class="tdFluent">L'amour à la folie</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Pagination">
+                        <span>&laquo; Previous</span>
+                        <span>1</span>
+                        <span>2</span>
+                        <span>...</span>
+                        <span>Next &raquo;</span>
+
+                    </div>
                 </div>
             </div>
         </div>
@@ -54,12 +119,16 @@
                 <a href="..." class="MenuItem">Add new music group</a>
             </div>
         </div>
+
         <div class="GridItemHeader">
             <h1>My music page</h1>
         </div>
+
         <div class="GridItemFooter">
             <p>(c) Bente Hjort 2026</p>
         </div>
 
     </div>
 </body>
+
+</html>

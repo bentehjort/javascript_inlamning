@@ -1,0 +1,56 @@
+.searchField{
+    margin: 20px;
+}
+.searchField .searchButton{
+    border-radius: 5px;
+    background-color: var(--row-color);
+}
+#table-container table{
+width: 90%;
+border-collapse: collapse;
+margin: 20px;
+margin-bottom: none;
+background-color: white;
+}
+#table-container th, td{
+   
+    padding: 1px;
+    text-align: left;
+    height:50px;
+}
+#table-container th{
+    background-color: var(--card-color);
+}
+#table-container tr:nth-child(even){
+    background-color: var(--row-color);
+}
+#table-container tr:hover{
+    background-color: var(--card-color);
+}
+#table-container td:last-child{
+    border: none;
+    background-color: none;
+}
+#table-container th:last-child{
+    border: none;
+    background-color: none;
+}
+
+.details-button{
+    margin: 5px;
+    padding:  10px;
+    background-color: var(--button-color);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.details-button:hover{
+    background-color: var(--hover-color);
+}
+.pagination-controls {    
+    margin: 20px;
+    border: black 1px;
+}
+#view-band-details {
+    margin: 20px;
+}
